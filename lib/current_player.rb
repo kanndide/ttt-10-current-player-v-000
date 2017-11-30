@@ -5,7 +5,7 @@ def turn_count(board)
     puts "This worked."
     turn_count += 1
     puts "#{turn_count}"
-    if #{turns} == "X" || "O"
+    if #{turns} == "X" || #{turns} == "O"
       puts "yes"
     end
   end
