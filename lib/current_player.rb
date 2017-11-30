@@ -4,6 +4,8 @@ def turn_count(board)
   board.each do |turns|
     if #{turns} == "X" || "O"
       turn_count =+ 1
+    elsif turn_count == 1
+      puts "it works"
     end
   end
 end
