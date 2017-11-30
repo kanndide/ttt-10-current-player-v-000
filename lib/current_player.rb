@@ -5,8 +5,8 @@ def turn_count(board)
     if "#{turns}" == "X" || "#{turns}" == "O"
       turn_count += 1
     end
-    puts "#{turn_count}"
   end
+  puts "#{turn_count}"
 end
 
 def current_player
