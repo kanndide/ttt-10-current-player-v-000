@@ -12,4 +12,4 @@ def current_player
 
 end
 
-turn_count(board)
+turn_count(board) == 0
